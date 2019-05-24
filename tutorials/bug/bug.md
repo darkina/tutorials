@@ -1,5 +1,5 @@
 ---
-title: SAP CodeJam Getting Started with SAP HANA, express edition 1803 update
+title: BUG 24.05
 description: Links, tips, tricks and more for getting started with the SAP HANA, express edition
 primary_tag: products>sap-hana\,-express-edition
 tags: [  tutorial>how-to, tutorial>beginner, tutorial>intermediate, products>sap-hana, products>sap-hana\,-express-edition  ]
