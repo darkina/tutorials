@@ -13,7 +13,7 @@ The following wi rthr thll document links, tips and tricks and more related to t
 
 
 ### Time to Complete
-**6 Hours**.
+**7 Hours**.
 
 ---
 
@@ -34,22 +34,19 @@ Now proceed to [SAP HANA, express edition](https://www.sap.com/developer/topics/
 [ACCORDION-END]
 
 
-[ACCORDION-BEGIN [Step 2: ](Run the Outliers service)] 
+[ACCORDION-BEGIN [Step 2: ](TEST)] 
 
-<Content to be displayed before tab content disregard what tab is selected.>
-[OPTION BEGIN [Windows]]
- <Content to be displayed on ‘Windows’ tab.>
+Text before all tabs
+
+[OPTION BEGIN [1]]
+ONE
 [OPTION END]
   
-[OPTION BEGIN [iOS]]
-<Content to be displayed on ‘iOS’ tab.>
+[OPTION BEGIN [2]]
+TWO
 [OPTION END]
 
-[OPTION BEGIN [Linux]]
-<Content to be displayed on ‘Linux’ tab.>
-[OPTION END]
-
-<Content to be displayed after tab content disregard what tab is selected.>
+Text after all tabs
  
 [ACCORDION-END]  
 
