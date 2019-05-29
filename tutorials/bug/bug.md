@@ -65,6 +65,30 @@ Content to be displayed on ‘iOS’ tab.
 
 [OPTION BEGIN [Linux]]
 Content to be displayed on ‘Linux’ tab.
+ ```cds
+    namespace my.bookshop;
+entity Books {
+  key ID : UUID;
+  title : String;
+  genre : Genre;
+  author : Association to Authors;
+}
+entity Authors {
+  key ID : UUID;
+  name : String;
+  books : Association to many Books;
+}
+type Genre : enum {
+  Mystery;
+  Fiction;
+  Drama;
+}
+service CatalogService {
+  entity Books as projection on bookshop.Books;
+  entity Authors as projection on bookshop.Authors;
+}
+    ```
+
 [OPTION END]
 
 Content to be displayed after tab content disregard what tab is selected.
