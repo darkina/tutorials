@@ -64,8 +64,8 @@ Content to be displayed on ‘iOS’ tab.
 [OPTION END]
 
 [OPTION BEGIN [Linux]]
-Content to be displayed on ‘Linux’ tab.
- ```cds
+
+```cds
     namespace my.bookshop;
 entity Books {
   key ID : UUID;
@@ -87,7 +87,7 @@ service CatalogService {
   entity Books as projection on bookshop.Books;
   entity Authors as projection on bookshop.Authors;
 }
-    ```
+ ```
 
 [OPTION END]
 
