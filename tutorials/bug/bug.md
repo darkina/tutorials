@@ -18,14 +18,30 @@ The following wi rthr thll document links, tips and tricks and more related to t
 
 [ACCORDION-BEGIN [Step 1: ](First steps after registering to attend the event)]
 
-Now that you have registered for the [SAP CodeJam](https://www.sap.com/developer/events.html) event you will need to follow a few steps here to prepare yourself for the event.
-
-The first step is of course to sign up and register for [SAP.com](http://developers.sap.com) this will enable your user and make future steps much easier.
-
-![Login](1.png)
-
-Now proceed to [SAP HANA, express edition](https://www.sap.com/developer/topics/sap-hana-express.html) product page where you will see the steps listed as well as more information on what exactly SAP HANA, express edition is.
-
+```cds
+    namespace my.bookshop;
+entity Books {
+  key ID : UUID;
+  title : String;
+  genre : Genre;
+  author : Association to Authors;
+}
+entity Authors {
+  key ID : UUID;
+  name : String;
+  books : Association to many Books;
+}
+type Genre : enum {
+  Mystery;
+  Fiction;
+  Drama;
+}
+service CatalogService {
+  entity Books as projection on bookshop.Books;
+  entity Authors as projection on bookshop.Authors;
+}
+ ```
+ 
 ![Relative with space](tutorials/bug/cat.png)
 
 [ACCORDION-END]
