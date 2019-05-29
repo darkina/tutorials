@@ -3,7 +3,7 @@ title: BUG 24.05
 description: Links, tips, tricks and more for getting started with the SAP HANA, express edition
 primary_tag: products>sap-hana\,-express-edition
 tags: [  tutorial>how-to, tutorial>beginner, tutorial>intermediate, products>sap-hana, products>sap-hana\,-express-edition  ]
-time: 66
+time: 77
 
 ---
 ## Prerequisites  
@@ -26,9 +26,7 @@ The first step is of course to sign up and register for [SAP.com](http://develop
 
 Now proceed to [SAP HANA, express edition](https://www.sap.com/developer/topics/sap-hana-express.html) product page where you will see the steps listed as well as more information on what exactly SAP HANA, express edition is.
 
-![HXE](2.png)
-
-> Remember you will need a laptop or machine with at least **8 GB** of RAM for server-only or **16GB** of RAM for XS Advanced applications. You can also choose a cloud provider but please note those require a credit card to sign up even if they offer free initial credits.
+![Relative with space](tutorials/bug/cat.png)
 
 [ACCORDION-END]
 
@@ -42,7 +40,7 @@ ONE
 [OPTION END]
   
 [OPTION BEGIN [2]]
-TWO
+![Relative with space](tutorials/bug/cat.png)
 [OPTION END]
 
 Text after all tabs
