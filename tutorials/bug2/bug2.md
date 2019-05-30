@@ -3,7 +3,7 @@ title: BUG2 24.05
 description: Links, tips, tricks and more for getting started with the SAP HANA, express edition
 primary_tag: products>sap-hana\,-express-edition
 tags: [  tutorial>how-to, tutorial>beginner, tutorial>intermediate, products>sap-hana, products>sap-hana\,-express-edition  ]
-time: 66
+time: 77
 
 ---
 ## Prerequisites  
@@ -37,6 +37,7 @@ service CatalogService {
   entity Authors as projection on bookshop.Authors;
 }
     ```
+ 1. 
  
 [ACCORDION-END]
 
