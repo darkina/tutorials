@@ -3,7 +3,7 @@ title: BUG 24.05
 description: Links, tips, tricks and more for getting started with the SAP HANA, express edition
 primary_tag: products>sap-hana\,-express-edition
 tags: [  tutorial>how-to, tutorial>beginner, tutorial>intermediate, products>sap-hana, products>sap-hana\,-express-edition  ]
-time: 66
+time: 77
 
 ---
 ## Prerequisites  
@@ -14,29 +14,19 @@ time: 66
 
 [ACCORDION-BEGIN [Step 1: ](First steps after registering to attend the event)]
 
-```cds
-    namespace my.bookshop;
-entity Books {
-  key ID : UUID;
-  title : String;
-  genre : Genre;
-  author : Association to Authors;
+```c#
+using System;
+ 
+class HelloWorld
+{
+  public static int Main()
+  {
+    Console.WriteLine("Hello World!");
+    return 0;
+  }
 }
-entity Authors {
-  key ID : UUID;
-  name : String;
-  books : Association to many Books;
-}
-type Genre : enum {
-  Mystery;
-  Fiction;
-  Drama;
-}
-service CatalogService {
-  entity Books as projection on bookshop.Books;
-  entity Authors as projection on bookshop.Authors;
-}
- ```
+* This source code was highlighted with Source Code Highlighter.
+```
  
 ![Relative with space](tutorials/bug/cat.png)
 
@@ -74,29 +64,19 @@ Content to be displayed on ‘Windows’ tab.
 
 [OPTION BEGIN [Linux]]
 
-```cds
-    namespace my.bookshop;
-entity Books {
-  key ID : UUID;
-  title : String;
-  genre : Genre;
-  author : Association to Authors;
+```c#
+using System;
+ 
+class HelloWorld
+{
+  public static int Main()
+  {
+    Console.WriteLine("Hello World!");
+    return 0;
+  }
 }
-entity Authors {
-  key ID : UUID;
-  name : String;
-  books : Association to many Books;
-}
-type Genre : enum {
-  Mystery;
-  Fiction;
-  Drama;
-}
-service CatalogService {
-  entity Books as projection on bookshop.Books;
-  entity Authors as projection on bookshop.Authors;
-}
- ```
+* This source code was highlighted with Source Code Highlighter.
+```
 
 [OPTION END]
 
