@@ -38,8 +38,6 @@ service CatalogService {
 }
  ```
  
-![Relative with space](tutorials/bug2/cat.png)
-
 [ACCORDION-END]
 
 
