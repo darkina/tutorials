@@ -90,7 +90,7 @@ service CatalogService {
  ```
 [OPTION END]
  
-![Relative with space](tutorials/bug/cat.png)
+![Relative with space](tutorials/devms1879/cat.png)
 ----
 
 ## Troubleshooting
@@ -186,7 +186,7 @@ service CatalogService {
  ```
 [OPTION END]
  
-![Relative with space](tutorials/bug/cat.png)
+![Relative with space](tutorials/devms1879/cat.png)
 ----
 
 ## Troubleshooting
@@ -352,7 +352,7 @@ service CatalogService {
 }
  ```
  
-![Relative with space](tutorials/bug/cat.png)
+![Relative with space](tutorials/devms1879/cat.png)
 ----
 
 ## Troubleshooting
@@ -432,7 +432,7 @@ service CatalogService {
  ```
 [OPTION END]
  
-![Relative with space](tutorials/bug/cat.png)
+![Relative with space](tutorials/devms1879/cat.png)
 ----
 
 ## Troubleshooting
