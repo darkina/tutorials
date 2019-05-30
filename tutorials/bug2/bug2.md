@@ -41,4 +41,21 @@ service CatalogService {
  
 [ACCORDION-END]
 
+[ACCORDION-BEGIN [Step : ](First)]
+
+```c#
+using System;
+ 
+class HelloWorld
+{
+  public static int Main()
+  {
+    Console.WriteLine("Hello World!");
+    return 0;
+  }
+}
+* This source code was highlighted with Source Code Highlighter.
+```
+ 
+[ACCORDION-END]
 
