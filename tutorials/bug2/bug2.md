@@ -37,7 +37,7 @@ service CatalogService {
   entity Authors as projection on bookshop.Authors;
 }
     ```
- 1. 
+ 1. h
  
 [ACCORDION-END]
 
