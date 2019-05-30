@@ -14,7 +14,7 @@ time: 77
 
 [ACCORDION-BEGIN [Step 1: ](First steps after registering to attend the event)]
 
-      ```cds
+```cds
     namespace my.bookshop;
 entity Books {
   key ID : UUID;
@@ -36,8 +36,9 @@ service CatalogService {
   entity Books as projection on bookshop.Books;
   entity Authors as projection on bookshop.Authors;
 }
-    ```
- 1. h
+```
+    
+ 1. 
  
 [ACCORDION-END]
 
@@ -56,6 +57,6 @@ class HelloWorld
 }
 * This source code was highlighted with Source Code Highlighter.
 ```
- 
+ gfhjghjghj
 [ACCORDION-END]
 
