@@ -63,7 +63,6 @@ Content to be displayed on ‘Windows’ tab.
 [OPTION END]
 
 [OPTION BEGIN [Linux]]
-
 ```c#
 using System;
  
@@ -77,7 +76,6 @@ class HelloWorld
 }
 * This source code was highlighted with Source Code Highlighter.
 ```
-
 [OPTION END]
 
 Content to be displayed after tab content disregard what tab is selected.
