@@ -14,7 +14,7 @@ time: 66
 
 [ACCORDION-BEGIN [Step 1: ](First steps after registering to attend the event)]
 
-```cds
+      ```cds
     namespace my.bookshop;
 entity Books {
   key ID : UUID;
@@ -36,7 +36,7 @@ service CatalogService {
   entity Books as projection on bookshop.Books;
   entity Authors as projection on bookshop.Authors;
 }
- ```
+    ```
  
 [ACCORDION-END]
 
