@@ -55,14 +55,19 @@ Text after all tabs
 Content to be displayed before tab content disregard what tab is selected.
 
 [OPTION BEGIN [Windows]]
+
 Content to be displayed on ‘Windows’ tab.
+
 [OPTION END]
 
 [OPTION BEGIN [iOS]]
+
 ![Repositories](cat.png)
+
 [OPTION END]
 
 [OPTION BEGIN [Linux]]
+
 ```c#
 using System;
  
@@ -76,6 +81,7 @@ class HelloWorld
 }
 * This source code was highlighted with Source Code Highlighter.
 ```
+
 [OPTION END]
 
 Content to be displayed after tab content disregard what tab is selected.
