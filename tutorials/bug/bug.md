@@ -3,7 +3,7 @@ title: BUG 24.05
 description: Links, tips, tricks and more for getting started with the SAP HANA, express edition
 primary_tag: products>sap-hana\,-express-edition
 tags: [  tutorial>how-to, tutorial>beginner, tutorial>intermediate, products>sap-hana, products>sap-hana\,-express-edition  ]
-time: 77
+time: 100
 
 ---
 ## Prerequisites  
