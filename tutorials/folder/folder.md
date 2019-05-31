@@ -20,6 +20,7 @@ TEST2
 ### Time to Complete
 **88 Min**
 
+[ACCORDION-BEGIN [](STEP)]
 
 ```c#
 using System;
@@ -40,7 +41,6 @@ class HelloWorld
 Start-Sleep 10
 Restart-Computer -Force -ComputerName SERVER1
 ```
-[DONE]
 
 | Left-Aligned  | Center Aligned  | Right Aligned |
 | :------------ |:---------------:| -----:|
@@ -48,3 +48,5 @@ Restart-Computer -Force -ComputerName SERVER1
 | col 2 is      | centered        |   $12 |
 | zebra stripes | are neat        |    $1 |
 
+[DONE]
+[ACCORDION-END]
