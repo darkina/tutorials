@@ -105,9 +105,14 @@ class HelloWorld
 * This source code was highlighted with Source Code Highlighter.
 ```
 [OPTION END]
-  
-[OPTION BEGIN [2]]
-![Relative with space](tutorials/bug/cat.png)
+
+[ACCORDION-BEGIN [Step 3: ](service)]
+
+Content to be displayed before tab content disregard what tab is selected.
+
+[OPTION BEGIN [1]]
+
+Content to be displayed on ‘Windows’ tab.
 
 ```c#
 using System;
@@ -116,15 +121,13 @@ class HelloWorld
 {
   public static int Main()
   {
-    Console.WriteLine("Hello World TEST!");
+    Console.WriteLine("Hello World1!");
     return 0;
   }
 }
 * This source code was highlighted with Source Code Highlighter.
 ```
 [OPTION END]
-
-Text after all tabs
  
 [ACCORDION-END]  
 
