@@ -106,6 +106,26 @@ class HelloWorld
 ```
 [OPTION END]
 
+[OPTION BEGIN [3]]
+
+```c#
+using System;
+ 
+class HelloWorld
+{
+  public static int Main()
+  {
+    Console.WriteLine("Hello World3!");
+    return 0;
+  }
+}
+* This source code was highlighted with Source Code Highlighter.
+```
+
+[OPTION END]
+
+[ACCORDION-END]  
+
 [ACCORDION-BEGIN [Step 3: ](service)]
 
 Content to be displayed before tab content disregard what tab is selected.
