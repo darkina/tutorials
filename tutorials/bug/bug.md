@@ -36,8 +36,6 @@ class HelloWorld
 
 [OPTION BEGIN [2]]
 
-![Repositories](cat.png)
-
 ```c#
 using System;
  
@@ -79,9 +77,8 @@ Content to be displayed after tab content disregard what tab is selected.
 
 [ACCORDION-BEGIN [Step 2: ](First steps after registering to attend the event)]
 
+ test
  
-![Relative with space](tutorials/bug/cat.png)
-
 [ACCORDION-END]
 
 
@@ -98,7 +95,7 @@ class HelloWorld
 {
   public static int Main()
   {
-    Console.WriteLine("Hello World!");
+    Console.WriteLine("Hello WorldA!");
     return 0;
   }
 }
@@ -115,7 +112,7 @@ class HelloWorld
 {
   public static int Main()
   {
-    Console.WriteLine("Hello World3!");
+    Console.WriteLine("Hello WorldC!");
     return 0;
   }
 }
@@ -141,7 +138,7 @@ class HelloWorld
 {
   public static int Main()
   {
-    Console.WriteLine("Hello World1!");
+    Console.WriteLine("Hello WorldA!");
     return 0;
   }
 }
