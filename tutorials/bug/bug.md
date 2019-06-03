@@ -14,6 +14,18 @@ time: 100
 
 [ACCORDION-BEGIN [Step 1: ](First steps after registering to attend the event)]
 
+ 
+![Relative with space](tutorials/bug/cat.png)
+
+[ACCORDION-END]
+
+
+[ACCORDION-BEGIN [Step 2: ](TEST)] 
+
+Text before all tabs
+
+[OPTION BEGIN [1]]
+
 ```c#
 using System;
  
@@ -27,22 +39,24 @@ class HelloWorld
 }
 * This source code was highlighted with Source Code Highlighter.
 ```
- 
-![Relative with space](tutorials/bug/cat.png)
-
-[ACCORDION-END]
-
-
-[ACCORDION-BEGIN [Step 2: ](TEST)] 
-
-Text before all tabs
-
-[OPTION BEGIN [1]]
-ONE
 [OPTION END]
   
 [OPTION BEGIN [2]]
 ![Relative with space](tutorials/bug/cat.png)
+
+```c#
+using System;
+ 
+class HelloWorld
+{
+  public static int Main()
+  {
+    Console.WriteLine("Hello World TEST!");
+    return 0;
+  }
+}
+* This source code was highlighted with Source Code Highlighter.
+```
 [OPTION END]
 
 Text after all tabs
