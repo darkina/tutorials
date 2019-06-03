@@ -1,9 +1,9 @@
 ---
-title: devms1879 03.06.19
+title: devms1879 03.06.2019
 description: Links, tips, tricks and more for getting started with the SAP HANA, express edition
 primary_tag: products>sap-hana\,-express-edition
 tags: [  tutorial>how-to, tutorial>beginner, tutorial>intermediate, products>sap-hana, products>sap-hana\,-express-edition  ]
-time: 60
+time: 66
 
 ---
 ## Prerequisites  
@@ -24,6 +24,7 @@ time: 60
 [OPTION BEGIN [Windows]]
 ### Content of the tab 
 Click the **Data Sources** tab at the top of the screen.
+
 ```cds
     namespace my.bookshop;
 entity Books {
@@ -32,7 +33,8 @@ entity Books {
   genre : Genre;
   author : Association to Authors;
 }
- ```
+```
+ 
  Define a new User Input Filter for restricted **measures (1)**. **Choose** on the **`popup`** the tab **User Input Filters** and **enter the attributes (2)** on the following **`popup`**. **Click** on the **new Button (3)** to create a new input filter **(4) + (5)**. The dimension is derived from the version.
  
 [OPTION END]
@@ -65,7 +67,8 @@ service CatalogService {
   entity Books as projection on bookshop.Books;
   entity Authors as projection on bookshop.Authors;
 }
- ```
+```
+ 
 [OPTION END]
 
 [OPTION BEGIN [Linux]]
@@ -84,7 +87,8 @@ service CatalogService {
   entity Books as projection on bookshop.Books;
   entity Authors as projection on bookshop.Authors;
 }
- ```
+```
+ 
 [OPTION END]
  
 ![Relative with space](tutorials/devms1879/cat.png)
@@ -116,6 +120,7 @@ service CatalogService {
 [OPTION BEGIN [Windows]]
 ### Content of the tab 
 Click the **Data Sources** tab at the top of the screen.
+
 ```cds
     namespace my.bookshop;
 entity Books {
@@ -124,8 +129,9 @@ entity Books {
   genre : Genre;
   author : Association to Authors;
 }
- ```
- Define a new User Input Filter for restricted **measures (1)**. **Choose** on the **`popup`** the tab **User Input Filters** and **enter the attributes (2)** on the following **`popup`**. **Click** on the **new Button (3)** to create a new input filter **(4) + (5)**. The dimension is derived from the version.
+```
+
+Define a new User Input Filter for restricted **measures (1)**. **Choose** on the **`popup`** the tab **User Input Filters** and **enter the attributes (2)** on the following **`popup`**. **Click** on the **new Button (3)** to create a new input filter **(4) + (5)**. The dimension is derived from the version.
  
 [OPTION END]
 
@@ -157,7 +163,8 @@ service CatalogService {
   entity Books as projection on bookshop.Books;
   entity Authors as projection on bookshop.Authors;
 }
- ```
+```
+ 
 [OPTION END]
 
 [OPTION BEGIN [Linux]]
@@ -176,7 +183,8 @@ service CatalogService {
   entity Books as projection on bookshop.Books;
   entity Authors as projection on bookshop.Authors;
 }
- ```
+```
+ 
 [OPTION END]
  
 ![Relative with space](tutorials/devms1879/cat.png)
@@ -205,15 +213,20 @@ service CatalogService {
 [OPTION BEGIN [Windows]]
 ### Content of the tab 
 Click the **Data Sources** tab at the top of the screen.
+
 ```cds
-    namespace my.bookshop;
-entity Books {
-  key ID : UUID;
-  title : String;
-  genre : Genre;
-  author : Association to Authors;
+using System;
+ 
+class HelloWorld
+{
+  public static int Main()
+  {
+    Console.WriteLine("Hello World!");
+    return 0;
+  }
 }
- ```
+* This source code was highlighted with Source Code Highlighter.
+```
  
  Define a new User Input Filter for restricted **measures (1)**. **Choose** on the **`popup`** the tab **User Input Filters** and **enter the attributes (2)** on the following **`popup`**. **Click** on the **new Button (3)** to create a new input filter **(4) + (5)**. The dimension is derived from the version.
   
@@ -243,7 +256,8 @@ service CatalogService {
   entity Books as projection on bookshop.Books;
   entity Authors as projection on bookshop.Authors;
 }
- ```
+```
+ 
 [OPTION END]
  
 ![Relative with space](tutorials/devms1879/cat.png)
@@ -285,21 +299,27 @@ service CatalogService {
   entity Books as projection on bookshop.Books;
   entity Authors as projection on bookshop.Authors;
 }
- ```
+```
 
 [OPTION BEGIN [Windows]]
 ### Content of the tab 
 Click the **Data Sources** tab at the top of the screen.
-```cds
-    namespace my.bookshop;
-entity Books {
-  key ID : UUID;
-  title : String;
-  genre : Genre;
-  author : Association to Authors;
+
+```c#
+using System;
+ 
+class HelloWorld
+{
+  public static int Main()
+  {
+    Console.WriteLine("Hello World!");
+    return 0;
+  }
 }
- ```
- Define a new User Input Filter for restricted **measures (1)**. **Choose** on the **`popup`** the tab **User Input Filters** and **enter the attributes (2)** on the following **`popup`**. **Click** on the **new Button (3)** to create a new input filter **(4) + (5)**. The dimension is derived from the version.
+* This source code was highlighted with Source Code Highlighter.
+```
+
+Define a new User Input Filter for restricted **measures (1)**. **Choose** on the **`popup`** the tab **User Input Filters** and **enter the attributes (2)** on the following **`popup`**. **Click** on the **new Button (3)** to create a new input filter **(4) + (5)**. The dimension is derived from the version.
  
 [OPTION END]
 
@@ -336,7 +356,8 @@ service CatalogService {
   entity Books as projection on bookshop.Books;
   entity Authors as projection on bookshop.Authors;
 }
- ```
+```
+ 
  
 ![Relative with space](tutorials/devms1879/cat.png)
 ----
@@ -390,7 +411,8 @@ service CatalogService {
   entity Books as projection on bookshop.Books;
   entity Authors as projection on bookshop.Authors;
 }
- ```
+```
+
 [OPTION END]
 
 [OPTION BEGIN [Linux]]
@@ -452,7 +474,8 @@ service CatalogService {
   entity Books as projection on bookshop.Books;
   entity Authors as projection on bookshop.Authors;
 }
- ```
+```
+
 [OPTION END]
 
 ![Relative with space](tutorials/devms1879/cat.png)
