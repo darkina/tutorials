@@ -11,13 +11,12 @@ time: 100
 
 
 ---
-[ACCORDION-BEGIN [Step 5: ](Run the Outliers service)]
+[ACCORDION-BEGIN [Step 5: ](ONE)]
 
 Content to be displayed before tab content disregard what tab is selected.
 
 [OPTION BEGIN [1]]
 
-Content to be displayed on ‘Windows’ tab.
 
 ```c#
 using System;
@@ -36,7 +35,6 @@ class HelloWorld
 
 [OPTION BEGIN [2]]
 
-
 ```c#
 using System;
  
@@ -54,7 +52,6 @@ class HelloWorld
 [OPTION END]
 
 [OPTION BEGIN [3]]
-
 
 ```c#
 using System;
@@ -76,7 +73,7 @@ Content to be displayed after tab content disregard what tab is selected.
 
 [ACCORDION-END]
 
-[ACCORDION-BEGIN [Step 1: ](Run the Outliers service)]
+[ACCORDION-BEGIN [Step 1: ](TWO)]
 
 Content to be displayed before tab content disregard what tab is selected.
 
@@ -116,14 +113,7 @@ Content to be displayed after tab content disregard what tab is selected.
 [ACCORDION-END]
 
 
-[ACCORDION-BEGIN [Step 2: ](First steps after registering to attend the event)]
-
- test
- 
-[ACCORDION-END]
-
-
-[ACCORDION-BEGIN [Step 2: ](TEST)] 
+[ACCORDION-BEGIN [Step 2: ](THREE)] 
 
 Text before all tabs
 
@@ -152,7 +142,7 @@ t3
 
 [ACCORDION-END]  
 
-[ACCORDION-BEGIN [Step 3: ](service)]
+[ACCORDION-BEGIN [Step 3: ](FORE)]
 
 Content to be displayed before tab content disregard what tab is selected.
 
