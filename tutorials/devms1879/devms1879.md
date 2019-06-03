@@ -1,9 +1,9 @@
 ---
-title: devms1879 30.05.19
+title: devms1879 03.06.19
 description: Links, tips, tricks and more for getting started with the SAP HANA, express edition
 primary_tag: products>sap-hana\,-express-edition
 tags: [  tutorial>how-to, tutorial>beginner, tutorial>intermediate, products>sap-hana, products>sap-hana\,-express-edition  ]
-time: 77
+time: 60
 
 ---
 ## Prerequisites  
