@@ -72,11 +72,38 @@ Content to be displayed before tab content disregard what tab is selected.
 
 Content to be displayed on ‘Windows’ tab.
 
+```c#
+using System;
+ 
+class HelloWorld
+{
+  public static int Main()
+  {
+    Console.WriteLine("Hello World1!");
+    return 0;
+  }
+}
+* This source code was highlighted with Source Code Highlighter.
+```
 [OPTION END]
 
 [OPTION BEGIN [2]]
 
 ![Repositories](cat.png)
+
+```c#
+using System;
+ 
+class HelloWorld
+{
+  public static int Main()
+  {
+    Console.WriteLine("Hello World!2");
+    return 0;
+  }
+}
+* This source code was highlighted with Source Code Highlighter.
+```
 
 [OPTION END]
 
@@ -89,7 +116,7 @@ class HelloWorld
 {
   public static int Main()
   {
-    Console.WriteLine("Hello World!");
+    Console.WriteLine("Hello World3!");
     return 0;
   }
 }
