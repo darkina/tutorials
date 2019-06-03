@@ -54,19 +54,19 @@ Text after all tabs
 
 Content to be displayed before tab content disregard what tab is selected.
 
-[OPTION BEGIN [Windows]]
+[OPTION BEGIN [1]]
 
 Content to be displayed on ‘Windows’ tab.
 
 [OPTION END]
 
-[OPTION BEGIN [iOS]]
+[OPTION BEGIN [2]]
 
 ![Repositories](cat.png)
 
 [OPTION END]
 
-[OPTION BEGIN [Linux]]
+[OPTION BEGIN [3]]
 
 ```c#
 using System;
