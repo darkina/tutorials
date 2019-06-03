@@ -142,7 +142,7 @@ t3
 
 [ACCORDION-END]  
 
-[ACCORDION-BEGIN [Step 3: ](FORE)]
+[ACCORDION-BEGIN [Step 3: ](FOUR)]
 
 Content to be displayed before tab content disregard what tab is selected.
 
