@@ -11,6 +11,71 @@ time: 100
 
 
 ---
+[ACCORDION-BEGIN [Step 5: ](Run the Outliers service)]
+
+Content to be displayed before tab content disregard what tab is selected.
+
+[OPTION BEGIN [1]]
+
+Content to be displayed on ‘Windows’ tab.
+
+```c#
+using System;
+ 
+class HelloWorld
+{
+  public static int Main()
+  {
+    Console.WriteLine("Hello World1!");
+    return 0;
+  }
+}
+* This source code was highlighted with Source Code Highlighter.
+```
+[OPTION END]
+
+[OPTION BEGIN [2]]
+
+
+```c#
+using System;
+ 
+class HelloWorld
+{
+  public static int Main()
+  {
+    Console.WriteLine("Hello World1!");
+    return 0;
+  }
+}
+* This source code was highlighted with Source Code Highlighter.
+```
+
+[OPTION END]
+
+[OPTION BEGIN [3]]
+
+
+```c#
+using System;
+ 
+class HelloWorld
+{
+  public static int Main()
+  {
+    Console.WriteLine("Hello World1!");
+    return 0;
+  }
+}
+* This source code was highlighted with Source Code Highlighter.
+```
+
+[OPTION END]
+
+Content to be displayed after tab content disregard what tab is selected.
+
+[ACCORDION-END]
+
 [ACCORDION-BEGIN [Step 1: ](Run the Outliers service)]
 
 Content to be displayed before tab content disregard what tab is selected.
@@ -36,37 +101,13 @@ class HelloWorld
 
 [OPTION BEGIN [2]]
 
-```c#
-using System;
- 
-class HelloWorld
-{
-  public static int Main()
-  {
-    Console.WriteLine("Hello World!2");
-    return 0;
-  }
-}
-* This source code was highlighted with Source Code Highlighter.
-```
+t1
 
 [OPTION END]
 
 [OPTION BEGIN [3]]
 
-```c#
-using System;
- 
-class HelloWorld
-{
-  public static int Main()
-  {
-    Console.WriteLine("Hello World3!");
-    return 0;
-  }
-}
-* This source code was highlighted with Source Code Highlighter.
-```
+t2
 
 [OPTION END]
 
@@ -86,7 +127,7 @@ Content to be displayed after tab content disregard what tab is selected.
 
 Text before all tabs
 
-[OPTION BEGIN [1]]
+[OPTION BEGIN [2]]
 
 ```c#
 using System;
@@ -105,19 +146,7 @@ class HelloWorld
 
 [OPTION BEGIN [3]]
 
-```c#
-using System;
- 
-class HelloWorld
-{
-  public static int Main()
-  {
-    Console.WriteLine("Hello WorldC!");
-    return 0;
-  }
-}
-* This source code was highlighted with Source Code Highlighter.
-```
+t3
 
 [OPTION END]
 
@@ -127,7 +156,7 @@ class HelloWorld
 
 Content to be displayed before tab content disregard what tab is selected.
 
-[OPTION BEGIN [1]]
+[OPTION BEGIN [2]]
 
 Content to be displayed on ‘Windows’ tab.
 
@@ -147,5 +176,3 @@ class HelloWorld
 [OPTION END]
  
 [ACCORDION-END]  
-
-
