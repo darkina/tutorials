@@ -166,3 +166,31 @@ class HelloWorld
 [OPTION END]
  
 [ACCORDION-END]  
+
+[OPTION BEGIN [1]]
+
+tefguywef
+
+[OPTION END]
+
+[OPTION BEGIN [2]]
+
+```c#
+using System;
+ 
+class HelloWorld
+{
+  public static int Main()
+  {
+    Console.WriteLine("Hello World1!");
+    return 0;
+  }
+}
+* This source code was highlighted with Source Code Highlighter.
+```
+
+[OPTION END]
+
+Content to be displayed after tab content disregard what tab is selected.
+
+[ACCORDION-END]
