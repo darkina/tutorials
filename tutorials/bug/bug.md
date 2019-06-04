@@ -167,6 +167,8 @@ class HelloWorld
  
 [ACCORDION-END]  
 
+[ACCORDION-BEGIN [Step 4: ](FIVE)]
+
 [OPTION BEGIN [1]]
 
 tefguywef
@@ -191,6 +193,5 @@ class HelloWorld
 
 [OPTION END]
 
-Content to be displayed after tab content disregard what tab is selected.
 
 [ACCORDION-END]
