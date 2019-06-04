@@ -1,5 +1,5 @@
 ---
-title: BUG 03.06.2019
+title: BUG 04.06.2019
 description: Links, tips, tricks and more for getting started with the SAP HANA, express edition
 primary_tag: products>sap-hana\,-express-edition
 tags: [  tutorial>how-to, tutorial>beginner, tutorial>intermediate, products>sap-hana, products>sap-hana\,-express-edition  ]
@@ -42,7 +42,7 @@ class HelloWorld
 {
   public static int Main()
   {
-    Console.WriteLine("Hello World1!");
+    Console.WriteLine("Hello World2!");
     return 0;
   }
 }
@@ -60,7 +60,7 @@ class HelloWorld
 {
   public static int Main()
   {
-    Console.WriteLine("Hello World1!");
+    Console.WriteLine("Hello World3!");
     return 0;
   }
 }
@@ -126,7 +126,7 @@ class HelloWorld
 {
   public static int Main()
   {
-    Console.WriteLine("Hello WorldA!");
+    Console.WriteLine("Hello World2!");
     return 0;
   }
 }
@@ -157,7 +157,7 @@ class HelloWorld
 {
   public static int Main()
   {
-    Console.WriteLine("Hello WorldA!");
+    Console.WriteLine("Hello World2!");
     return 0;
   }
 }
@@ -184,7 +184,7 @@ class HelloWorld
 {
   public static int Main()
   {
-    Console.WriteLine("Hello World1!");
+    Console.WriteLine("Hello World2!");
     return 0;
   }
 }
