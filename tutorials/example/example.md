@@ -33,11 +33,6 @@ If you installed the VM installation package to a Windows machine, follow this s
 
     ![HXE_Hosts_Windows_0](HXE_Hosts_Windows_0.png)
 
-    > Note:
-    > If the VM is restarted and assigned a new IP, you'll need to update the Hosts file.
-    >
-    >
-
 [OPTION END]
 
 [OPTION BEGIN [Mac and Linux]]
@@ -51,11 +46,6 @@ If you installed the VM installation package to a Mac or Linux machine, follow t
     ```bash
     sudo sh -c 'echo <hxehost IP address> hxehost >> /etc/hosts'
     ```
-
-    > Note:
-    > If the VM is restarted and assigned a new IP, you will need to update the Hosts file.
-    >
-    >
 
 [OPTION END]
 
