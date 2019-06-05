@@ -3,7 +3,7 @@ title: Example
 description: The `hxehost` IP address is private to the VM. In order for applications on your laptop (like your web browser) to access `hxehost`, add the `hxehost` IP address to your laptop's hostname map.
 primary_tag: products>sap-hana\,-express-edition
 tags: [ tutorial>beginner, products>sap-hana\,-express-edition  ]
-time: 3
+time: 33
 ---
 
 <!-- loio3040d723d58b48f1a97077c001fe4c7f -->
@@ -16,6 +16,7 @@ time: 3
 You'll learn how to configure your host machine to communicate with the server.
 
 ---
+
 [ACCORDION-BEGIN [Step 1: ](Update etc/hosts)]
 
 [OPTION BEGIN [Windows]]
@@ -40,6 +41,7 @@ If you installed the VM installation package to a Windows machine, follow this s
 [OPTION END]
 
 [OPTION BEGIN [Mac and Linux]]
+
 If you installed the VM installation package to a Mac or Linux machine, follow this step to update the `etc/hosts` file.
 
 1.   On your Mac or Linux machine, start the Terminal application
@@ -49,6 +51,11 @@ If you installed the VM installation package to a Mac or Linux machine, follow t
     ```bash
     sudo sh -c 'echo <hxehost IP address> hxehost >> /etc/hosts'
     ```
+
+    > Note:
+    > If the VM is restarted and assigned a new IP, you will need to update the Hosts file.
+    >
+    >
 
 [OPTION END]
 
