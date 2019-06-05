@@ -16,7 +16,6 @@ time: 2
 You'll learn how to configure your host machine to communicate with the server.
 
 ---
-
 [ACCORDION-BEGIN [Step 1: ](Update etc/hosts)]
 
 [OPTION BEGIN [Windows]]
