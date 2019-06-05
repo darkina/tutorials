@@ -5,7 +5,6 @@ primary_tag: products>sap-hana\,-express-edition
 tags: [ tutorial>beginner, products>sap-hana\,-express-edition  ]
 time: 44
 ---
-
 <!-- loio3040d723d58b48f1a97077c001fe4c7f -->
 
 ## Prerequisites
@@ -29,26 +28,38 @@ If you installed the VM installation package to a Windows machine, follow this s
 
 3.   In a new uncommented row, add the IP address and `hxehost`. Save your changes
 
-    Spacing is important. Make sure your hosts file in Notepad looks like this image.
+Spacing is important. Make sure your hosts file in Notepad looks like this image.
 
-    ![HXE_Hosts_Windows_0](HXE_Hosts_Windows_0.png)
+![HXE_Hosts_Windows_0](HXE_Hosts_Windows_0.png)
+
+ > Note:
+ > If the VM is restarted and assigned a new IP, you'll need to update the Hosts file.
+ >
+ >
 
 [OPTION END]
 
-[OPTION BEGIN [Mac and Linux]]
 
+[OPTION BEGIN [Mac and Linux]]
 If you installed the VM installation package to a Mac or Linux machine, follow this step to update the `etc/hosts` file.
 
 1.   On your Mac or Linux machine, start the Terminal application
 
 2.   Enter the following command:
 
-    ```bash
-    sudo sh -c 'echo <hxehost IP address> hxehost >> /etc/hosts'
-    ```
+```bash
+sudo sh -c 'echo <hxehost IP address> hxehost >> /etc/hosts'
+```
+> Note:
+> If the VM is restarted and assigned a new IP, you will need to update the Hosts file.
+>
+>
+
 
 [OPTION END]
 
 [DONE]
 
 [ACCORDION-END]
+
+
