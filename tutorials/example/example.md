@@ -50,6 +50,7 @@ If you installed the VM installation package to a Mac or Linux machine, follow t
 ```bash
 sudo sh -c 'echo <hxehost IP address> hxehost >> /etc/hosts'
 ```
+
  > Note:
  > If the VM is restarted and assigned a new IP, you will need to update the Hosts file.
  >
