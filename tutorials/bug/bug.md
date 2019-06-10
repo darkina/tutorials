@@ -1,9 +1,9 @@
 ---
-title: BUG 04.06.2019
+title: BUG 10.06.2019
 description: Links, tips, tricks and more for getting started with the SAP HANA, express edition
 primary_tag: products>sap-hana\,-express-edition
 tags: [  tutorial>how-to, tutorial>beginner, tutorial>intermediate, products>sap-hana, products>sap-hana\,-express-edition  ]
-time: 100
+time: 111
 
 ---
 ## Prerequisites  
