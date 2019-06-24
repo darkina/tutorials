@@ -19,7 +19,7 @@ author_profile: https://github.com/adadouche
   
 ## Details
 ### You will learn  
-TEST22222
+NEW
 
 UPDATED DETAILS
 
@@ -52,8 +52,4 @@ Restart-Computer -Force -ComputerName SERVER1
 [DONE]
 [ACCORDION-END]
 
-[ACCORDION-BEGIN [STEP 2](Add)]
-hjrtjetj
 
-[DONE]
-[ACCORDION-END]
