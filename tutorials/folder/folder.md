@@ -18,7 +18,7 @@ author_profile: https://github.com/adadouche
 TEST2
 
 ### Time to Complete
-**88 Min**
+**77 Min**
 
 [ACCORDION-BEGIN [](STEP)]
 
