@@ -1,5 +1,5 @@
 ---
-title: TutorialTopaz10 24062019 updated
+title: TutorialTopaz10 24062019 delete
 description: 2 new types of rules 2007_1
 tags: [tutorial:product/sapHana, tutorial:experience/beginner]
 primary_tag: tutorial:product/sapHana
@@ -44,22 +44,16 @@ class HelloWorld
 * This source code was highlighted with Source Code Highlighter.
 ```
 
-[DONE]
-[ACCORDION-END]
-
-
-[ACCORDION-BEGIN [STEP 2](With)]
 ```PowerShall
 2
 Start-Sleep 10
 Restart-Computer -Force -ComputerName SERVER1
 ```
-
 [DONE]
 [ACCORDION-END]
 
-[ACCORDION-BEGIN [STEP 3](Add)]
-Some text lalalal
+[ACCORDION-BEGIN [STEP 2](Add)]
+hjrtjetj
 
 [DONE]
 [ACCORDION-END]
