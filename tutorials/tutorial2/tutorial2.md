@@ -1,5 +1,5 @@
 ---
-title: TutorialTopaz10 24062019
+title: TutorialTopaz10 24062019 updated
 description: 2 new types of rules 2007_1
 tags: [tutorial:product/sapHana, tutorial:experience/beginner]
 primary_tag: tutorial:product/sapHana
@@ -54,6 +54,12 @@ class HelloWorld
 Start-Sleep 10
 Restart-Computer -Force -ComputerName SERVER1
 ```
+
+[DONE]
+[ACCORDION-END]
+
+[ACCORDION-BEGIN [STEP 3](Add)]
+Some text lalalal
 
 [DONE]
 [ACCORDION-END]
