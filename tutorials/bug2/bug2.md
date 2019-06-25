@@ -214,5 +214,5 @@ Define a table (without metadata) with following information in the correct orde
     - `country`: `abap.char(50)`
     - `emailaddress`: `abap.char(50)`
 
-[VALIDATE_1]
+[DONE]
 [ACCORDION-END]
